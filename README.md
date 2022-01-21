@@ -10,9 +10,6 @@ Install the following libraries to use scrape data from yahoo finance:
 - Historical prices of a cryptocurrency(in INR, to get the prices in USD change to USD) till present date can be scraped using get_history function and passing the abrevation into   function. To get weekly or monthly data change the time interval to weekly or monthly.
 - To get the current data of the cryptocurrencies(market cap,price,moving average and the traded volume) get_current_data function is defined. A list of abbrevations of required cryptocurrencies needs to be passed to the function
  
- ## Upload the files into AWS cloud database
- Instead of saving the csv file every time the data is scrapped we can store the data in sql database and the next time when we scrape we can update the table in the sql. Using the cloud databases helps in mimicking the way real time projects work  
- 
-   * Upload the csv files to aws database
-      So that data gets updated from time to time
-      
+## Upload the files into AWS cloud database
+To setup AWS database and connect to the database using python you can refer [this video](https://www.youtube.com/watch?v=RerDL93sBdY)
+* The table can be inserted into the specified database using the insert_data function from the [Adding csv to AWS RDS](https://github.com/kartikbandarwad99/Crypto/blob/main/Adding%20csv%20to%20AWS%20RDS.py)
