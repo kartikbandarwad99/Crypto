@@ -65,6 +65,7 @@ def insert_data(table_name,df,username=username,password=password,host=host,data
     
 
 
+    
 # In[24]:
 
 
