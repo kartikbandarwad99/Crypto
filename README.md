@@ -1,7 +1,6 @@
 # Crypto Price Forecasting
 Building an End to End ML Project
 ## Scrapping Crypto Prices data from Yahoo Finance
-Refer to [crypto scraping](https://github.com/kartikbandarwad99/Crypto/blob/main/Crypto_scrapping.py) file for scrapping using Yahoo Financials library.<br/>
 Install the following libraries to use scrape data from yahoo finance:
 ```python
 !pip install yahoofinancials
@@ -22,8 +21,8 @@ Install the following libraries to use scrape data from yahoo finance:
   ```
  
 ## Upload the files into AWS cloud database
-To setup AWS database and connect to the database using python you can refer [this video](https://www.youtube.com/watch?v=RerDL93sBdY)
-* The table can be inserted into the specified database using the insert_data function from the [Adding csv to AWS RDS](https://github.com/kartikbandarwad99/Crypto/blob/main/Adding%20csv%20to%20AWS%20RDS.py)
+To setup AWS database and connect to the database using python you can refer [this video](https://www.youtube.com/watch?v=RerDL93sBdY)</br>
+The table can be inserted into the specified database using the insert_data function from the [Adding csv to AWS RDS](https://github.com/kartikbandarwad99/Crypto/blob/main/Adding%20csv%20to%20AWS%20RDS.py)
 For example:
 ```python
 # For inserting a dataframe df into database with tablename dataframe
