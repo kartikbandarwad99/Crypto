@@ -13,3 +13,9 @@ Install the following libraries to use scrape data from yahoo finance:
 ## Upload the files into AWS cloud database
 To setup AWS database and connect to the database using python you can refer [this video](https://www.youtube.com/watch?v=RerDL93sBdY)
 * The table can be inserted into the specified database using the insert_data function from the [Adding csv to AWS RDS](https://github.com/kartikbandarwad99/Crypto/blob/main/Adding%20csv%20to%20AWS%20RDS.py)
+For example:
+```python
+# For inserting a dataframe df into database with tablename dataframe
+insert_data('dataframe',df)
+```
+The function insert_data also takes in user credentials(username, password, database name and host name) as other parameters.
