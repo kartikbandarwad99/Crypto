@@ -25,7 +25,7 @@ To setup AWS database and connect to the database using python you can refer [th
 The table can be inserted into the specified database using the insert_data function from the [Adding csv to AWS RDS](https://github.com/kartikbandarwad99/Crypto/blob/main/Adding%20csv%20to%20AWS%20RDS.py)
 For example:
 ```python
-# For inserting a dataframe df into database with tablename dataframe
-insert_data('dataframe',df)
+# For inserting a dataframe df into database with tablename crypto
+insert_data('crypto',df,username, password, database_name, host name))
 ```
-The function insert_data also takes in user credentials(username, password, database name and host name) as other parameters.
+The function takes in tablename, dataframe and the user credentials to connect to the AWS database.
