@@ -6,6 +6,7 @@ Install the following libraries to use scrape data from yahoo finance:
 !pip install yahoofinancials
 !pip install yfinance
  ```
+ The functions get_history and get_current_data are defined in [Crypto Scrapping](https://github.com/kartikbandarwad99/Crypto/blob/main/Crypto_scrapping.py)
 - Historical prices of a cryptocurrency(in INR, to get the prices in USD change to USD) till present date can be scraped using get_history function and passing the abrevation into   function. To get weekly or monthly data change the time interval to weekly or monthly.
   For example:
   ```
