@@ -1,6 +1,4 @@
-# Crypto Price Forecasting
-Building an End to End ML Project
-## Scrapping Crypto Prices data from Yahoo Finance
+# Scrapping Crypto Prices data from Yahoo Finance
 Install the following libraries to use scrape data from yahoo finance:
 ```python
 !pip install yahoofinancials
